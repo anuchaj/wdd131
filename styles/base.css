@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}  
+
+/* HEADER */
+
+header {
+    background-color: #02163f;
+    color: #ffffff;
+    text-align: center;
+}
+
+#course-title {
+    display: block;
+    padding: 1.3rem;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: #333333;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.navigation a:hover {
+    color: #0000cc;
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+
+    max-width: 1000px;
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+main h1 {
+    grid-column: 1 / 3;
+    text-align: center;
+    font-family: "Ubuntu", Arial, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* CARD */
+
+.card {
+    border: 1px solid #333333;
+    border-radius: 8px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.card h2 {
+    background-color: #02163f;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.75rem;
+    font-size: 1.3rem;
+}
+
+/* ABOUT ME */
+
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 170px;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: start;
+}
+
+.about-me p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.about-me img {
+    width: 170px;
+    height: auto;
+    border-radius: 6px;
+    justify-self: end;
+}
+
+/* Location section */
+
+.location {
+    padding: 0 1rem 1rem;
+}
+
+.location h3 {
+    text-align: center;
+    padding: 0.75rem 0 0.4rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #a0a0a0;
+    font-size: 1.1rem;
+}
+
+.location-content {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 1rem;
+    align-items: start;
+}
+
+.location figure {
+    text-align: center;
+}
+
+.location figure img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ffffff;
+}
+
+.location-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* RESOURCES */
+
+.resources {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resources ul {
+    line-height: 2;
+    font-size: 1rem;
+}
+
+.resources a {
+    color: #0000cc;
+}
+
+.resources a:hover {
+    color: #02163f;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+footer p:last-child {
+    color: #ffff66;
+    font-size: 0.9rem;
+}

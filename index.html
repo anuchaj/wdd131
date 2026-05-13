@@ -1,16 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD131 Main</title>
+    <meta name="description" content="Dynamic Web Fundamentals W01 Assignment: Joseph Anucha Home Page">
+    <meta name="author" content="Joseph Anucha">
+
+    <title>WDD 131 - Dynamic Web Fundamentals - Joseph Anucha</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/base.css">
+
+    <script src="scripts/dateget.js" defer></script>
+
+    
+
 </head>
 <body>
+
     <header>
+        <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
+
         <nav>
-            <a href="week01/basic-layout.html">Link to Week 01 Basic layout.</a>
+
+            <ul class="navigation">
+                <li><a href="https://www.linkedin.com/in/josephanucha-jmesys/" title="LinkedIn">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" title="Canvas">Canvas</a></li>
+                <li><a href="week01/basic-layout.html" title="Basic">Basic Layout</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/ot/ex/14?lang=eng&id=p13#p13" title="Scriptures">Scriptures</a></li>
+                <li><a href="finalproject.html" title="Final Project">Final Project</a></li>
+            </ul>
+
         </nav>
+
     </header>
+    
+    <main>
+
+        <h1>Joseph Anucha</h1>
+
+        <section class="card">
+
+            <h2>About Me</h2>
+
+            <div class="about-me">
+
+                <p>My name is Joseph, I was born in the US, and live in Utah. I'm currently working on improving my skills and learning more about software development because I enjoy computers and building creative projects.</p>
+                
+                <img src="images/logan.jpg" alt="Picture of Joseph">
+            </div>
+
+            <div class="location">
+
+                <h3>Utah, United States</h3>
+
+                <div class="location-content">
+
+                    <figure>
+                        <img src="images/us-flag.png" alt="Flag of the United States">
+                    </figure>
+
+                    <p>Utah is a beautiful state with a lot of great outdoor activities. You can go hiking, camping, and exploring the many national parks and scenic areas.</p>
+
+                </div>
+                
+                
+            </div>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Web Dev Resources</h2>
+
+            <div class="resources">
+                <ul>
+                    <li><a href="https://www.w3schools.com/htmlcss/" title="W3Schools">W3Schools</a></li>
+                    <li><a href="https://www.codecademy.com/catalog/language/html-css" title="Codecademy">Codecademy</a></li>
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Joseph Anucha, Utah</p>
+        <p id="lastModified">Last modified:</p>
+    </footer>  
     
 </body>
 </html>
