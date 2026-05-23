@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Hamburger button */
+#menu-button {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+}
+
+/* Navigation (mobile hidden by default) */
+nav {
+  display: none;
+  flex-direction: column;
+}
+
+nav.open {
+  display: flex;
+}
+
+/* Flex nav links */
+nav a {
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+/* Hover effect */
+nav a:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Main layout */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Grid (mobile = 1 column) */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,18 @@
+/* Show nav always on large screens */
+@media (min-width: 768px) {
+
+  #menu-button {
+    display: none;
+  }
+
+  nav {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /* Multi-column grid */
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
