@@ -1,13 +1,21 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f1ea;
   margin: 0;
+  color: #1a1a1a;
 }
 
 header {
+  background-color: #1f2a44;
+  color: #ffffff;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 1rem;
+
+  font-family: "Roboto", sans-serif;
 }
 
 /* Hamburger button */
@@ -15,6 +23,7 @@ header {
   font-size: 1.5rem;
   background: none;
   border: none;
+  color: #ffffff;
 }
 
 /* Navigation (mobile hidden by default) */
@@ -29,14 +38,19 @@ nav.open {
 
 /* Flex nav links */
 nav a {
-  padding: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
   text-decoration: none;
+  padding: 0.5rem;
+  transition: 0.3s;
+  font-weight: 400;
 }
 
 /* Hover effect */
 nav a:hover {
-  background-color: #333;
-  color: white;
+  background-color: #c9a227;
+  color: #1f2a44;
+  border-radius: 4px;
 }
 
 /* Main layout */
@@ -56,4 +70,23 @@ main {
 figure img {
   width: 100%;
   height: auto;
+}
+
+figcaption {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Footer */
+footer {
+  background-color: #1f2a44;
+  color: #ffffff;
+
+  text-align: center;
+  padding: 1rem;
+
+  font-family: "Roboto", sans-serif;
 }
