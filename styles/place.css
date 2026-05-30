@@ -1,0 +1,60 @@
+:root {
+  --primary: #c8102e;
+  --secondary: #007a3d;
+  --text: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* cards */
+.card {
+  background: rgba(255,255,255,0.9);
+  padding: 1rem;
+  width: 250px;
+}
+
+/* positioning (like screenshot) */
+.data-card {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.weather-card {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* pseudo-element requirement */
+@media (min-width: 700px) {
+  .weather-card h2::after {
+    content: " ⛅";
+  }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>United States</title>
+
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+<header>
+  <h1>United States</h1>
+</header>
+
+<main>
+
+  <section class="hero">
+    <picture>
+      <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+      <source srcset="images/hero-large.webp" media="(min-width: 501px)">
+      <img src="images/hero-large.webp" alt="Lemurs in United States">
+    </picture>
+
+    <!-- DATA CARD -->
+    <div class="card data-card">
+      <h2>Data</h2>
+      <ul>
+        <li>Area: 587,041 sq km</li>
+        <li>Population: 27,691,018</li>
+        <li>Capital: Washington DC</li>
+        <li>Languages: English, French</li>
+        <li>Currency: US Dollar</li>
+        <li>Time Zone: UTC+1</li>
+        <li>Calling Code: +1</li>
+        <li>Internet TLD: .mg</li>
+      </ul>
+    </div>
+
+    <!-- WEATHER CARD -->
+    <div class="card weather-card">
+      <h2>Weather <span class="weather-icon">⛅</span></h2>
+
+      <p>Temperature: 10°C</p>
+      <p>Conditions: Partly Cloudy</p>
+      <p>Wind: 5 km/h</p>
+      <p>Wind Chill: <span id="windchill"></span></p>
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Joseph Anucha • United States </p>
+  <p>Last Modification: <span id="lastModified"></span></p>
+</footer>
+
+</body>
+</html>
