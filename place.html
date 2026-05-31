@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dynamic Web Fundamentals W03 Assignment: Joseph Anucha Country page.">
+  <meta name="author" content="Joseph Anucha">
+
   <title>United States</title>
 
   <link rel="stylesheet" href="styles/place.css">
+
   <script src="scripts/place.js" defer></script>
 </head>
 
@@ -41,7 +45,12 @@
 
     <!-- WEATHER CARD -->
     <div class="card weather-card">
-      <h2>Weather <span class="weather-icon">⛅</span></h2>
+        <h2>Weather <span class="weather-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="24" height="24">
+                <path fill="#f5c542" d="M32 20a12 12 0 1 0 0 24 12 12 0 0 0 0-24z"/>
+                <path fill="#ccc" d="M46 44H22a10 10 0 1 1 2-19.8A12 12 0 0 1 46 44z"/>
+            </svg></span>
+        </h2>
 
       <p>Temperature: 10°C</p>
       <p>Conditions: Partly Cloudy</p>

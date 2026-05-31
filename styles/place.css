@@ -16,9 +16,6 @@ header {
   padding: 1rem;
 }
 
-.hero {
-  position: relative;
-}
 
 .hero img {
   width: 100%;
@@ -26,28 +23,44 @@ header {
   display: block;
 }
 
-/* cards */
+
+/* cards (mobile default) */
 .card {
   background: rgba(255,255,255,0.9);
   padding: 1rem;
-  width: 250px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 1rem 0;
 }
 
-/* positioning (like screenshot) */
-.data-card {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-
+/* IMPORTANT */
+.data-card,
 .weather-card {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
+  position: static;
 }
+
 
 /* pseudo-element requirement */
 @media (min-width: 700px) {
+  .hero {
+    position: relative;
+  }
+
+  .card {
+    width: 250px;
+    position: absolute;
+  }
+
+  .data-card {
+    top: 20px;
+    left: 20px;
+  }
+
+  .weather-card {
+    bottom: 20px;
+    right: 20px;
+  }
+
   .weather-card h2::after {
     content: " ⛅";
   }
