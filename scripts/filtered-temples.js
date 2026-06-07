@@ -83,7 +83,7 @@ const temples = [
     dedicated: "1893, April, 6",
     area: 253000,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-3699.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/800x500/slctemple7.jpg"
   },
   {
     templeName: "Gilbert Arizona",
@@ -91,7 +91,7 @@ const temples = [
     dedicated: "2014, March, 2",
     area: 85000,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/gilbert-arizona-temple/gilbert-arizona-temple-7614.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/gilbert-arizona/800x500/gilbert-arizona-temple-exterior-1207309-wallpaper.jpg"
   },
   {
     templeName: "Rome Italy",
@@ -99,7 +99,7 @@ const temples = [
     dedicated: "2019, March, 10",
     area: 41010,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-46035.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/2019/800x500/2-Rome-Temple-2190090.jpg"
   }
 ];
 
