@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px){
+
+    #menu{
+        display:none;
+    }
+
+    .navigation{
+        display:flex;
+        gap:2rem;
+    }
+
+    header{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .hero-text{
+        position:absolute;
+        top:50%;
+        left:10%;
+        transform:translateY(-50%);
+        background:rgba(255,255,255,.85);
+        padding:2rem;
+        max-width:500px;
+    }
+
+    .cards{
+        grid-template-columns:
+        repeat(3,1fr);
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .tips-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

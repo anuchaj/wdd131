@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Philippine Explorer | Destinations</title>
+
+        <meta name="description" content="Explore popular tourist destinations throughout the Philippines.">
+
+        <meta name="author" content="Joseph Anucha">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/project.css">
+        <link rel="stylesheet" href="styles/project-large.css">
+
+        <script src="scripts/main.js" defer></script>
+        <script src="scripts/destinations.js" defer></script>
+
+    </head>
+
+    <body>
+
+    <header>
+
+        <div class="logo">☀️ Philippine Explorer</div>
+
+        <button id="menu"></button>
+
+        <nav class="navigation">
+
+            <a href="index.html">Home</a>
+
+            <a href="destinations.html" class="active">Destinations</a>
+
+            <a href="travel-tips.html">Travel Tips</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="page-header">
+
+            <h1>Philippine Destinations</h1>
+
+            <p>Discover some of the most beautiful places
+            to visit in the Philippines.</p>
+
+        </section>
+
+        <section class="filters">
+
+            <h2>Filter by Category</h2>
+
+            <div class="filter-buttons">
+                <button data-category="All">All</button>
+                <button data-category="Beach">Beach</button>
+                <button data-category="Nature">Nature</button>
+                <button data-category="Historic">Historic</button>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Your Favorite Destinations</h2>
+
+            <div id="favorites">
+                <p>No favorites selected yet.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Destinations</h2>
+
+            <div id="destinationCards"
+            class="cards"></div>
+        </section>
+
+    </main>
+
+        <footer>
+
+            <p>
+            © 2025 Philippine Explorer
+            </p>
+
+            <a href="references.html">
+            References
+            </a>
+
+        </footer>
+
+    </body>
+</html>
